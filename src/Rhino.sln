@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rhino.Events.Service", "Rhino.Events.Service\Rhino.Events.Service.csproj", "{A4FD6EC8-0AFB-45A6-9533-A5AB7C6FB3D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rhino.Events.Plugins", "Rhino.Events.Plugins\Rhino.Events.Plugins.csproj", "{91A75ABB-D632-44F5-BFF5-95D001B9C60B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docker", ".docker", "{74340F4C-CD55-43AB-B122-69346061B6A6}"
+	ProjectSection(SolutionItems) = preProject
+		..\.dockerignore = ..\.dockerignore
+		Rhino.Events.Service.Dockerfile = Rhino.Events.Service.Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rhino.Events.Settings", "Rhino.Events.Settings\Rhino.Events.Settings.csproj", "{2D28A4FB-B655-4971-8825-B469E75C88F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{C0AC501C-8411-49DF-9A18-80BF85E7B02B}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4FD6EC8-0AFB-45A6-9533-A5AB7C6FB3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FD6EC8-0AFB-45A6-9533-A5AB7C6FB3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FD6EC8-0AFB-45A6-9533-A5AB7C6FB3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FD6EC8-0AFB-45A6-9533-A5AB7C6FB3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A75ABB-D632-44F5-BFF5-95D001B9C60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A75ABB-D632-44F5-BFF5-95D001B9C60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A75ABB-D632-44F5-BFF5-95D001B9C60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A75ABB-D632-44F5-BFF5-95D001B9C60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D28A4FB-B655-4971-8825-B469E75C88F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D28A4FB-B655-4971-8825-B469E75C88F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D28A4FB-B655-4971-8825-B469E75C88F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D28A4FB-B655-4971-8825-B469E75C88F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FB9636B-FC37-4D09-8738-CD4A6B58243D}
+	EndGlobalSection
+EndGlobal

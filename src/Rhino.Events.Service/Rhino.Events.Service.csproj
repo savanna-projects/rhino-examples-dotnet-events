@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<UserSecretsId>9e36705d-4037-4221-aed4-20808205ed73</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileFile>../Rhino.Events.Service.Dockerfile</DockerfileFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Gravity.Abstraction.Logging" Version="2020.10.18.1" />
+		<PackageReference Include="Gravity.Loader" Version="2023.8.16.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+		<PackageReference Include="Rhino.Api" Version="2023.8.17.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Rhino.Events.Plugins\Rhino.Events.Plugins.csproj" />
+	</ItemGroup>
+
+</Project>

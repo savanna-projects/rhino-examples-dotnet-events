@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Gravity.Abstraction.Logging" Version="2020.10.18.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Rhino.Events.Settings\Rhino.Events.Settings.csproj" />
+	</ItemGroup>
+
+</Project>
