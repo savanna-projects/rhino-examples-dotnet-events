@@ -11,6 +11,8 @@ WORKDIR /src
 
 # Copy the project file and restore dependencies
 COPY ["Rhino.Events.Service/Rhino.Events.Service.csproj", "Rhino.Events.Service/"]
+COPY ["Rhino.Events.Plugins/Rhino.Events.Plugins.csproj", "Rhino.Events.Plugins/"]
+COPY ["Rhino.Events.Settings/Rhino.Events.Settings.csproj", "Rhino.Events.Settings/"]
 RUN dotnet restore "Rhino.Events.Service/Rhino.Events.Service.csproj"
 
 # Copy the source code and build the application
